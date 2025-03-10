@@ -1,0 +1,6 @@
+# Set default behaviour to automatically normalize line endings to LF
+* text=auto
+# We explicitly identify the known source files to normalize
+*.py text eol=lf
+*.txt text eol=lf
+*.md text eol=lf
